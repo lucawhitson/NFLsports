@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate NFL Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="main-header">
+    <div class="logo">
+      <h1>🏈 Ultimate NFL Hub</h1>
+      <p>All Things American Football — Real Stats & Players</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#stars">Stars</a></li>
+        <li><a href="#stats">Stats Leaders</a></li>
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#about">About NFL</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-inner">
+      <h2>Welcome To The NFL Universe</h2>
+      <p>Explore the best players, stats, highlights, and history of American Football.</p>
+      <button onclick="scrollToSection('stars')">Explore Stars</button>
+    </div>
+  </section>
+
+  <section id="stars">
+    <h2>🏆 Top NFL Players</h2>
+    <div class="cards-row">
+      
+      <div class="card player-card">
+        <img src="images/patrick_mahomes.jpg" alt="Patrick Mahomes">
+        <h3>Patrick Mahomes</h3>
+        <p><strong>Team:</strong> Kansas City Chiefs</p>
+        <p><strong>Position:</strong> QB</p>
+        <p>2× MVP | Super Bowl Champion</p>
+      </div>
+      
+      <div class="card player-card">
+        <img src="images/aaron_donald.jpg" alt="Aaron Donald">
+        <h3>Aaron Donald</h3>
+        <p><strong>Team:</strong> Los Angeles Rams</p>
+        <p><strong>Position:</strong> DT</p>
+        <p>3× Defensive Player of the Year</p>
+      </div>
+
+      <div class="card player-card">
+        <img src="images/tyreek_hill.jpg" alt="Tyreek Hill">
+        <h3>Tyreek Hill</h3>
+        <p><strong>Team:</strong> Miami Dolphins</p>
+        <p><strong>Position:</strong> WR</p>
+        <p>Known for elite speed</p>
+      </div>
+
+      <!-- add more player cards here -->
+    </div>
+  </section>
+
+  <section id="stats">
+    <h2>📊 2025 Season Leaders</h2>
+    <table class="stats-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Leader</th>
+          <th>Team</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Passing Yards</td><td>Patrick Mahomes</td><td>Chiefs</td><td>4,839</td></tr>
+        <tr><td>Rushing Yards</td><td>Derrick Henry</td><td>Titans</td><td>1,540</td></tr>
+        <tr><td>Receiving Yards</td><td>Tyreek Hill</td><td>Dolphins</td><td>1,612</td></tr>
+        <tr><td>QB Rating</td><td>Josh Allen</td><td>Bills</td><td>105.4</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="teams">
+    <h2>🏟️ AFC & NFC Power Rankings</h2>
+    <div class="rankings-grid">
+      <div class="rank-card">
+        <h4>#1 AFC</h4><p>Kansas City Chiefs</p>
+      </div>
+      <div class="rank-card">
+        <h4>#1 NFC</h4><p>San Francisco 49ers</p>
+      </div>
+      <div class="rank-card">
+        <h4>#2 AFC</h4><p>Buffalo Bills</p></div>
+      <div class="rank-card">
+        <h4>#2 NFC</h4><p>Dallas Cowboys</p></div>
+      <!-- you can populate full 32 ranks here -->
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About the NFL</h2>
+    <p>The National Football League (NFL) is a professional American football league consisting of 32 teams, divided equally between the National Football Conference (NFC) and the American Football Conference (AFC). The NFL is one of the major professional sports leagues in North America and the highest professional level of American football in the world.</p>
+    <p>The league was formed in 1920 and today culminates each season with the Super Bowl, the league’s championship game.</p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ for the Ultimate Football Fans.</p>
+    <p>Hosted on GitHub Pages — Customize with your favorite teams!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
